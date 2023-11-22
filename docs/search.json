@@ -9,8 +9,15 @@
   {
     "objectID": "assignment1.html",
     "href": "assignment1.html",
-    "title": "1  Assignment 1",
+    "title": "1  Assignment 1: Introduction",
     "section": "",
-    "text": "This is a template example qmd output page. You may see an example R code below.\n\nset.seed(1)\nvec1 &lt;- sample(LETTERS,5)\npaste0(vec1,collapse=\"\")\n\n[1] \"YDGAB\""
+    "text": "This is a template example qmd output page. You may see an example R code below.\n\nset.seed(1)\nvec1 &lt;- sample(LETTERS, 5)\npaste0(vec1, collapse = \"\")\n\n[1] \"YDGAB\""
+  },
+  {
+    "objectID": "assignment_shiny.html",
+    "href": "assignment_shiny.html",
+    "title": "2  Assignment: Shiny",
+    "section": "",
+    "text": "You can run my shiny app using the following command.\n\nlibrary(shiny)\n## [CHANGE THE PATHS HERE AND DELETE THIS COMMENT]\nshiny::runGitHub(\"pjournal/gh-pages-quarto-template\", subdir = \"/app/app.R\")\n\n\nAlso, you can try the app on Shinyapps."
   }
 ]

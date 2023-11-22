@@ -1,0 +1,25 @@
+---
+title: "Assignment: Shiny"
+date: "2023-10-01"
+---
+
+<!---
+Here write a short introduction about your Shiny app. What is the theme? What is the data? What is the data source? Then, .
+--->
+
+You can run my shiny app using the following command.
+
+```{r}
+#| eval: false
+#| echo: true
+
+library(shiny)
+## [CHANGE THE PATHS HERE AND DELETE THIS COMMENT]
+shiny::runGitHub("pjournal/gh-pages-quarto-template", subdir = "/app/app.R")
+```
+
+<!---
+Replace the link with your shinyapps link.
+--->
+
+Also, you can try the app on [Shinyapps](https://www.shinyapps.io/).
